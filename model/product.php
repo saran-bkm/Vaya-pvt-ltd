@@ -51,13 +51,13 @@ switch ($action) {
                $data .="<td>".$d['qty']."</td>";
                $data .="<td>".$d['created_at']."</td>";
               $data .= '<td>
-            <button class="btn btn-sm btn-primary" onclick="editProduct(' . $d['id'] . ')">
-                <i class="fa-solid fa-pen-to-square"></i>
-            </button>
-            <button class="btn btn-sm btn-danger" onclick="deleteProduct(' . $d['id'] . ')">
-                <i class="fa-solid fa-trash"></i>
-            </button>
-          </td>';
+                <button class="btn btn-sm btn-primary" onclick="editProduct(' . $d['id'] . ')">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button class="btn btn-sm btn-danger" onclick="deleteProduct(' . $d['id'] . ')">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </td>';
 
                $data .="</tr>";
             }
